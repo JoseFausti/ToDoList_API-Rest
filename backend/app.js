@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // Configurar CORS para permitir peticiones desde el frontend
 app.use(cors({
-    origin: 'http://localhost:5173',  // Reemplaza con la URL de tu frontend
+    origin: 'http://localhost:5173',  // URL del frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
     allowedHeaders: ['Content-Type', 'Authorization']  // Encabezados permitidos
 }));
